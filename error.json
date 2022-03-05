@@ -1,0 +1,345 @@
+{
+  "took": 839,
+  "errors": true,
+  "items": [
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "F9aIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 156,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "GNaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 157,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "GdaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 158,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "GtaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 159,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "G9aIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 160,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "HNaIWH8BuPJM6EPks_66",
+        "status": 400,
+        "error": {
+          "type": "mapper_parsing_exception",
+          "reason": "failed to parse field [geometry] of type [geo_shape]",
+          "caused_by": {
+            "type": "illegal_argument_exception",
+            "reason": "Self-intersection at or near point [35.621087106,23.139292914]"
+          }
+        }
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "HdaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 161,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "HtaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 162,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "H9aIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 163,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "INaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 164,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "IdaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 165,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "ItaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 166,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "I9aIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 167,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "JNaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 168,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "JdaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 169,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "JtaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 170,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "J9aIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 171,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "KNaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 172,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "KdaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 173,
+        "_primary_term": 1,
+        "status": 201
+      }
+    },
+    {
+      "index": {
+        "_index": "countries",
+        "_type": "_doc",
+        "_id": "KtaIWH8BuPJM6EPks_66",
+        "_version": 1,
+        "result": "created",
+        "_shards": {
+          "total": 2,
+          "successful": 1,
+          "failed": 0
+        },
+        "_seq_no": 174,
+        "_primary_term": 1,
+        "status": 201
+      }
+    }
+  ]
+}
