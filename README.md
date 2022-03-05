@@ -22,8 +22,8 @@ But ogr2ogr yells at you after processing about 170 countries or so. If
 you run the same with the `-skipfailures` option, you'll see every
 country gets indexed *except* Egypt! Why?
 
-A look a the json output from ogr2ogr (which I will spare you here),
-ultimately lead me to:
+A look at the json output from ogr2ogr (which I will spare you for the
+moment), ultimately lead me to:
 
 ```code
 "Self-intersection at or near point [35.621087106,23.139292914]"
@@ -47,10 +47,10 @@ copy of the file here.
 Hoping to use this git repo as part of a bug report, once I read their
 process on that.
 
-Included here is [ESRI shape
+Included here is an [ESRI shape
 file](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml)
 in the `ne_10m_admin_0_countries` directory as well as the same output
-in GeoJSON, since I think the format is a bit easier to work with.
+in GeoJSON, since I think that format is a bit easier to work with.
 
 
 ## Steps to reproduce the bug
@@ -73,7 +73,7 @@ $ ogr2ogr -f ElasticSearch  -progress \
     /vsizip/./ne_10m_admin_0_countries.zip/ne_10m_admin_0_countries.shp
 ```
 
-3. Observe you receive a similar error as given in `error.json`
+3. Observe you receive a similar error as in `error.json`
 
 As a sanity check, you can re-run the same command without the fancy zip
 syntax by manually unzipping:
@@ -94,7 +94,7 @@ You will get the same error
 
 Oddly enough, converting to other formats *will not* yield the same
 error. I suspect there is some check that's not done by the GeoJSON
-(and other) drivers that the Elastic one does.
+(and maybe other) drivers that the Elastic one does.
 
 
 ``` bash
